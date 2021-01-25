@@ -63,7 +63,7 @@ endfunction
 
 function! s:Cppman(page)
   " vertical bo new
-  horizontal bo new
+  split bo new
   setlocal buftype=nofile
   setlocal bufhidden=delete
   setlocal noswapfile
